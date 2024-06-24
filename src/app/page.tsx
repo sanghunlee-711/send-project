@@ -7,6 +7,7 @@ import styles from './page.module.css';
 
 const Home: React.FC = () => {
   const isMobile = cookies().get('isMobile')?.value === 'true';
+
   const SMART_STORE_LINK = isMobile
     ? 'm.smartstore.naver.com/yelsendproject'
     : 'http://smartstore.naver.com/yelsendproject';
