@@ -9,8 +9,8 @@ const Home: React.FC = () => {
   const isMobile = cookies().get('isMobile')?.value === 'true';
 
   const SMART_STORE_LINK = isMobile
-    ? 'm.smartstore.naver.com/yelsendproject'
-    : 'http://smartstore.naver.com/yelsendproject';
+    ? 'https://m.smartstore.naver.com/yelsendproject'
+    : 'https://smartstore.naver.com/yelsendproject';
 
   return (
     <RootLayout>
